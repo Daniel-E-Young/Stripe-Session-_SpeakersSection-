@@ -1,7 +1,8 @@
-:root{
-    --height: calc (80vh - 50px );
+:root {
+    --height: calc( 80vh - 50px );
     --width: 450px;
 }
+
 .carousel {
     display: grid;
     transform: translate3d(0,0,0.1px);
@@ -321,4 +322,3 @@ body, html {
     padding: 0;
     align-items: start;
 }
-
