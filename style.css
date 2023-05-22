@@ -171,7 +171,7 @@
     height: 100%;
     z-index: 1;
     opacity: 1;
-    background: linear-gradient(160deg, rgba(2,0,36,0) 40%, rgba(118,221,136,.5) 70%, rgba(255, 3, 3, 0.6) 100%);
+    background: linear-gradient(160deg, rgba(2,0,36,0) 40%, rgba(4, 55, 223) 70%, rgba(235, 9, 9) 100%);
     transition: all .66s cubic-bezier(.55,.24,.18,1);
 }
 
