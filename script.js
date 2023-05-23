@@ -24,3 +24,11 @@ const prevSlide = () => {
     $list.prepend($last);
     activateSlide( $q(".carousel__item")[index] );
 }
+const nextSlide = () => {
+    const index = getActiveIndex();
+    const $slides = $q(".carousel__item");
+    const $first = $slides[0];
+    $first.remove();
+    $list.append($first);
+    activateSlide( $q(".carousel__item")[index] );
+}
