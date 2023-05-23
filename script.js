@@ -1,1 +1,2 @@
-const d = document;
+const d = document; 
+const $q = 
