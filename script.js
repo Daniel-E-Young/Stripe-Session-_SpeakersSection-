@@ -5,3 +5,4 @@ const $prev = $g(".prev");
 const $next = $g(".next");
 const $list = $g(".carousel__list");
 let auto;
+let pauser;
