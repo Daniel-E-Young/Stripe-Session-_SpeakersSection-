@@ -1,2 +1,3 @@
 const d = document; 
-const $q = 
+const $q = d.querySelectorAll.bind(d);
+
