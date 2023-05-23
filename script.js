@@ -11,3 +11,16 @@ const getActiveIndex = () => {
     const $active = $g("[data-active]");
     return getSlideIndex($active);
 }
+
+const getSlideIndex = ($slide) => {
+    return [...$q(".carousel__item")].indexOf( $slide );
+}
+
+const prevSlide = () => {
+    const index = getActiveIndex();
+    const $slides = $q(".carousel__item");
+    const $last = $slides[$slides.length-1];
+    $last.remove();
+    $list.prepend($last);
+    activateSlide( $q(".carousel__item")[index] );
+}
