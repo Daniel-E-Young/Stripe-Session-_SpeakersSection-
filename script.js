@@ -34,4 +34,5 @@ const nextSlide = () => {
 }
 const activateSlide = ($slide) => {
     if (!$slide) return;
+    const $slides = 
 }
