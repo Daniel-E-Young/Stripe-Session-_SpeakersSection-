@@ -33,5 +33,5 @@ const nextSlide = () => {
     activateSlide( $q(".carousel__item")[index] );
 }
 const activateSlide = ($slide) => {
-    
+    if (!$slide) return;
 }
