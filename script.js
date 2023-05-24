@@ -36,5 +36,7 @@ const activateSlide = ($slide) => {
     if (!$slide) return;
     const $slides = $q(".carousel__item");
     $slides.ForEach(el => el.removeAttrbute('data-active'));
+    $slide.setAttribute ('data-active', true);
+    
 
 }
