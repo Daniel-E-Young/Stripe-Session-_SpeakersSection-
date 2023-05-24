@@ -32,3 +32,6 @@ const nextSlide = () => {
     $list.append($first);
     activateSlide( $q(".carousel__item")[index] );
 }
+const activateSlide = ($slide) => {
+    
+}
