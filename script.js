@@ -34,5 +34,6 @@ const nextSlide = () => {
 }
 const activateSlide = ($slide) => {
     if (!$slide) return;
-    const $slides = $q(".carousel__item")
+    const $slides = $q(".carousel__item");
+    
 }
