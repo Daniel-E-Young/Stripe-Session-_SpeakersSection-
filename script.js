@@ -70,3 +70,7 @@ const handleSlideKey = (e) => {
             break;
     }
 }
+const startAuto = () => {
+    auto = setInterval( autoSlide, 3000 );
+}
+
