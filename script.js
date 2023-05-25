@@ -42,4 +42,8 @@ const activateSlide = ($slide) => {
 const autoSlide = () => {
     nextSlide();
 }
+const pauseAuto = () => {
+    clearInterval( auto );
+    clearTimeout( pauser );
+}
 
