@@ -38,5 +38,8 @@ const activateSlide = ($slide) => {
     $slides.ForEach(el => el.removeAttrbute('data-active'));
     $slide.setAttribute ('data-active', true);
     $slide.focus();
-
 }
+const autoSlide = () => {
+    nextSlide();
+}
+
