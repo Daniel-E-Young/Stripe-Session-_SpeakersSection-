@@ -50,3 +50,7 @@ const handleNextClick = (e) => {
     pauseAuto();
     nextSlide(e);
 }
+const handlePrevClick = (e) => {
+    pauseAuto();
+    prevSlide(e);
+}
