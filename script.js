@@ -46,4 +46,7 @@ const pauseAuto = () => {
     clearInterval( auto );
     clearTimeout( pauser );
 }
-
+const handleNextClick = (e) => {
+    pauseAuto();
+    nextSlide(e);
+}
