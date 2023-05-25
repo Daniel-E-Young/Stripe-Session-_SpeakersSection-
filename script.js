@@ -77,6 +77,6 @@ startAuto();
 
 $next.addEventListener( "click", handleNextClick );
 $prev.addEventListener( "click", handlePrevClick );
-// $list.addEventListener( "click", handleSlideClick );
+$list.addEventListener( "click", handleSlideClick );
 $list.addEventListener( "focusin", handleSlideClick );
 $list.addEventListener( "keyup", handleSlideKey );
