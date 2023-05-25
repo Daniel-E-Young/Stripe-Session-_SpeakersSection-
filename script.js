@@ -54,3 +54,8 @@ const handlePrevClick = (e) => {
     pauseAuto();
     prevSlide(e);
 }
+const handleSlideClick = (e) => {
+    pauseAuto();
+    chooseSlide(e);
+}
+
