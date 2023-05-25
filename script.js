@@ -58,4 +58,15 @@ const handleSlideClick = (e) => {
     pauseAuto();
     chooseSlide(e);
 }
-
+const handleSlideKey = (e) => {
+    switch(e.keyCode) {
+        case 37:
+        case 65:
+            handlePrevClick();
+            break;
+        case 39:
+        case 68:
+            handleNextClick();
+            break;
+    }
+}
