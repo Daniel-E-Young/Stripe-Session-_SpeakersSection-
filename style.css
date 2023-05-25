@@ -3,11 +3,6 @@
     --width: 450px;
 }
 
-h1{
-    font-size: 50px;
-    justify-content: center;
-}
-
 .carousel {
     display: grid;
     transform: translate3d(0,0,0.1px);
